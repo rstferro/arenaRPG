@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is an example of a meta description. This will often show up in search results.">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title></title>
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+  </head>
+  <body>
+
+    <div class="header">
+      <p>Escolha seu herói e derrote o inimigo na arena</p>
+      <h2>Escolha seu personagem!</h2>
+    </div>
+
+    <div class="interface">
+      <a href="#" onclick="GameManager.setGameStart('Guerreiro')">
+        <img src="img/avatar-player/guerreiro.png" alt="Guerreiro">
+        <div>
+          <h3>Guerreiro</h3>
+          <p>Guerreiros tem vida e folego maiores, no entanto o guerreiro é o menos ágil de todos personagens.</p>
+        </div>
+      </a>
+      <a href="#" onclick="GameManager.setGameStart('Ladino')">
+        <img src="img/avatar-player/ladino.png" alt="Ladino">
+        <div>
+          <h3>Ladino</h3>
+          <p>Ladinos são rápidos e tem um alto folego e agilidade que compensam sua falta de vida.</p>
+        </div>
+      </a>
+      <a href="#" onclick="GameManager.setGameStart('Mago')">
+        <img src="img/avatar-player/mago.png" alt="Mago">
+        <div>
+          <h3>Mago</h3>
+          <p>Magos são os famosos "canhões de vidro, tem o maior dano para compensar a falta do resto.</p>
+        </div>
+      </a>
+      <a href="#" onclick="GameManager.setGameStart('Caçador')">
+        <img src="img/avatar-player/caçador.png" alt="Caçador">
+        <div>
+          <h3>Caçador</h3>
+          <p>Caçadores são os personagens mais "equilibrados", sem muitos pontos fortes e nem fracos.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="acoes">
+
+    </div>
+
+    <div class="arena">
+
+    </div>
+
+    <div class="inimigo">
+
+    </div>
+
+  </body>
+</html>
